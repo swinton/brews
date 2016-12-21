@@ -6,9 +6,7 @@ class Pdfify < Formula
   sha256 "2d53bf76af0131241dc4b2231df058d4ab7641ea3850ed81893fa47dc9e20eaf"
 
   depends_on "pandoc"
-
-  # TODO
-  # Also depends on wkhtmltopdf
+  depends_on "wkhtmltopdf"
   
   def install
       bin.install "bin/pdfify"
