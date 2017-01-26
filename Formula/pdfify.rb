@@ -1,9 +1,9 @@
 class Pdfify < Formula
   desc ""
   homepage ""
-  url "https://github.com/swinton/pdfify/archive/0.1.2.tar.gz"
-  version "0.1.2"
-  sha256 "93998b317f669a49e6004478fb8cd0b3dc2d4149fbf6c445fc31b640cd6f4f8c"
+  url "https://github.com/swinton/pdfify/archive/0.1.3.tar.gz"
+  version "0.1.3"
+  sha256 "bb18da173bf45f7a74654f217eb9cd445c7ebeb1a6adf6e0dc49fdcdcfe0c675"
 
   depends_on "pandoc"
 
