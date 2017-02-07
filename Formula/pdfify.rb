@@ -11,6 +11,7 @@ class Pdfify < Formula
   # Also depends on wkhtmltopdf
 
   def install
+      system "gem", "install", "mustache"
       bin.install "bin/pdfify"
       lib.install Dir["lib/*"]
   end
